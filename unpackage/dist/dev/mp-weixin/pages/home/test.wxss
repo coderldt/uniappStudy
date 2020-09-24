@@ -1,0 +1,6 @@
+
+.status_bar {
+	bottom: calc(0px + 10px);
+	height: 25px;
+}
+

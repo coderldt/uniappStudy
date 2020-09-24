@@ -1,0 +1,90 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/test",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#ea4706",
+				"navigationBarShadow": {
+					"colorType": "grey"
+				}
+		
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-ui基础项目"
+			}
+		},
+		{
+			"path": "pages/home/switch",
+			"style": {
+				"navigationBarTitleText": "关注"
+			}
+		},
+		{
+			"path": "pages/home/redirectTo",
+			"style": {
+				"navigationBarTitleText": "发布  redirectTo"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/my/star",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/media/recorder",
+			"style": {
+				"navigationBarTitleText": "录音器"
+			}
+		},
+		{
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频器"
+			}
+		}
+	],
+	"globalStyle": {
+	},
+	"tabBar": {
+
+		"list": [{
+				"pagePath": "pages/home/test",
+				"iconPath": "static/tarbar/tab-home.png",
+				"selectedIconPath": "static/tarbar/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tarbar/tab-home.png",
+				"selectedIconPath": "static/tarbar/tab-home-current.png",
+				"text": "关注"
+			},
+			// {
+			// 	"pagePath": "pages/home/test",
+			// 	"iconPath": "static/tarbar/tab-home.png",
+			// 	"selectedIconPath": "static/tarbar/tab-home-current.png",
+			// 	"text": "发布"
+			// },
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/tarbar/tab-my.png",
+				"selectedIconPath": "static/tarbar/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	}
+	
+	
+
+}

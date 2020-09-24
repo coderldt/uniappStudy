@@ -1,0 +1,1 @@
+<view><button type="default" data-event-opts="{{[['tap',[['open',['$event']]]]]}}" bindtap="__e">打开video</button><video src="{{src}}" controls="{{true}}"></video></view>

@@ -1,0 +1,1 @@
+<view class="view">{{''+content+''}}<button type="default" data-event-opts="{{[['tap',[['redirectTo',['$event']]]]]}}" bindtap="__e">发布</button></view>
