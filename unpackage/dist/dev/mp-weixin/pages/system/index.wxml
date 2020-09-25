@@ -1,0 +1,1 @@
+<view class="system"><button type="default" data-event-opts="{{[['tap',[['getSystemInfo',['$event']]]]]}}" bindtap="__e">获取基本设备信息</button><button type="default">监听内存警告</button><button type="default" data-event-opts="{{[['tap',[['getNetwork',['$event']]]]]}}" bindtap="__e">获取网络信息</button></view>

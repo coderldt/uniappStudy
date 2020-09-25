@@ -52,6 +52,18 @@
 			"style": {
 				"navigationBarTitleText": "视频器"
 			}
+		},
+		{
+			"path": "pages/media/mpCamera",
+			"style": {
+				"navigationBarTitleText": "微信camera"
+			}
+		},
+		{
+			"path": "pages/system/index",
+			"style": {
+				"navigationBarTitleText": "获取基本设备信息"
+			}
 		}
 	],
 	"globalStyle": {

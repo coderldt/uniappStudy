@@ -4,6 +4,8 @@
 		</view>
 		<button type="default" @click="switchRecdrder">录音器</button>
 		<button type="default" @click="switchVideo">视频器</button>
+		<button type="default" @click="switchCamera">微信camera</button>
+		<button type="default" @click="switchSystem">system</button>
 		<view class="body" :style="{height: height}">
 			<block v-for="(item, index) in 10" :key="index">
 				{{item}}
@@ -46,6 +48,16 @@
 			switchVideo() {
 				uni.navigateTo({
 					url: "../media/video"
+				})
+			},
+			switchCamera() {
+				uni.navigateTo({
+					url: "../media/mpCamera"
+				})
+			},
+			switchSystem() {
+				uni.navigateTo({
+					url: "../system/index"
 				})
 			}
 		},

@@ -1,0 +1,1 @@
+<button type="default" data-event-opts="{{[['tap',[['open',['$event']]]]]}}" bindtap="__e">mpCamera</button>

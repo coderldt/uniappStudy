@@ -16,6 +16,7 @@
 			open() {
 				let self = this
 				uni.chooseVideo({
+					sourceType:	['album'],
 					success(res) {
 						console.log(res);
 						self.src = res.tempFilePath
