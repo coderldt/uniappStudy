@@ -3,6 +3,8 @@
 		<button type="default" @click="getSystemInfo">获取基本设备信息</button>
 		<button type="default">监听内存警告</button>
 		<button type="default" @click="getNetwork">获取网络信息</button>
+		<button type="default" @click="startAccelerometer">开始加速度</button>
+		<button type="default" @click="endAccelerometer">结束加速度</button>
 	</view>
 </template>
 

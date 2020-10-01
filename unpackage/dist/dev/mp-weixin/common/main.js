@@ -105,6 +105,9 @@ __webpack_require__.r(__webpack_exports__);
       // 路由跳转
       console.log('页面未找到', path, query);
     });
+    uni.onUserCaptureScreen(function () {
+      console.log('用户截屏了,但是没返回消息,我没办法');
+    });
   },
   onShow: function onShow() {
     console.log('App Show 开始');

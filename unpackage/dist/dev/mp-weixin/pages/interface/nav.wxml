@@ -1,0 +1,1 @@
+<view class="nav"><button type="default" data-event-opts="{{[['tap',[['setNav',['$event']]]]]}}" bindtap="__e">设置导航条</button><button type="default" data-event-opts="{{[['tap',[['loadProgress',['$event']]]]]}}" bindtap="__e">导航加载进度条</button><button type="default" data-event-opts="{{[['tap',[['hideProgress',['$event']]]]]}}" bindtap="__e">隐藏加载进度条</button></view>

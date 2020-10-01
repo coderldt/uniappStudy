@@ -9,7 +9,19 @@
     "pages/media/recorder",
     "pages/media/video",
     "pages/media/mpCamera",
-    "pages/system/index"
+    "pages/system/index",
+    "pages/system/phone",
+    "pages/system/blueTooth",
+    "pages/system/authen",
+    "pages/interface/index",
+    "pages/interface/toast",
+    "pages/interface/nav",
+    "pages/interface/tabbar",
+    "pages/interface/animation",
+    "pages/interface/nodeMsg",
+    "pages/serve/index",
+    "pages/serve/share",
+    "pages/serve/pay"
   ],
   "subPackages": [],
   "window": {},
@@ -41,5 +53,5 @@
     }
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap23.json"
+  "sitemapLocation": "sitemap71.json"
 }

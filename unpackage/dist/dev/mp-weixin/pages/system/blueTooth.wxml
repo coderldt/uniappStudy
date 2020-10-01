@@ -1,0 +1,1 @@
+<view><button type="default" data-event-opts="{{[['tap',[['inittooth',['$event']]]]]}}" bindtap="__e">初始化蓝牙(不支持mac外的手机)</button></view>

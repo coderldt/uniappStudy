@@ -1,0 +1,1 @@
+<view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view>{{''+item+''}}</view></block><button type="default" data-event-opts="{{[['tap',[['getAuthenRespoent',['$event']]]]]}}" bindtap="__e">获取认证方式</button><button type="default" data-event-opts="{{[['tap',[['setStore',['$event']]]]]}}" bindtap="__e">开始认证</button></view>

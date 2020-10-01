@@ -1,0 +1,1 @@
+<view><button type="default" data-event-opts="{{[['tap',[['btnclick',['$event']]]]]}}" bindtap="__e">获取节点信息</button><button type="default" data-event-opts="{{[['tap',[['savefile',['$event']]]]]}}" bindtap="__e">选择文件</button><button type="default" data-event-opts="{{[['tap',[['login',['$event']]]]]}}" bindtap="__e">登录</button>{{''+serve+''}}</view>

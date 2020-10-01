@@ -64,6 +64,79 @@
 			"style": {
 				"navigationBarTitleText": "获取基本设备信息"
 			}
+		},
+		{
+			"path": "pages/system/phone",
+			"style": {
+				"navigationBarTitleText": "拨打电话"
+			}
+		},
+		{
+			"path": "pages/system/blueTooth",
+			"style": {
+				"navigationBarTitleText": "蓝牙"
+			}
+		},
+		{
+			"path": "pages/system/authen",
+			"style": {
+				"navigationBarTitleText": "认证"
+			}
+		},
+		{
+			"path": "pages/interface/index",
+			"style": {
+				"navigationBarTitleText": "界面"
+			}
+		},
+		{
+			"path": "pages/interface/toast",
+			"style": {
+				"navigationBarTitleText": "提醒"
+			}
+		},
+		{
+			"path": "pages/interface/nav",
+			"style": {
+				"navigationBarTitleText": "导航条"
+			}
+		},
+		{
+			"path": "pages/interface/tabbar",
+			"style": {
+				"navigationBarTitleText": "tabbar"
+			}
+		},
+		{
+			"path": "pages/interface/animation",
+			"style": {
+				"navigationBarTitleText": "animation",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/interface/nodeMsg",
+			"style": {
+				"navigationBarTitleText": "节点信息"
+			}
+		},
+		{
+			"path": "pages/serve/index",
+			"style": {
+				"navigationBarTitleText": "服务"
+			}
+		},
+		{
+			"path": "pages/serve/share",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/serve/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
 		}
 	],
 	"globalStyle": {

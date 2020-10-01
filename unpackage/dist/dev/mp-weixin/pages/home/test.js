@@ -159,6 +159,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 var _default =
 {
   data: function data() {
@@ -195,6 +197,18 @@ var _default =
     switchSystem: function switchSystem() {
       uni.navigateTo({
         url: "../system/index" });
+
+      // uni.showTabBar()
+    },
+    switchphone: function switchphone() {
+      uni.navigateTo({
+        url: "../system/phone" });
+
+      // uni.hideTabBar()
+    },
+    switchServe: function switchServe() {
+      uni.navigateTo({
+        url: '../serve/index' });
 
     } },
 

@@ -1,0 +1,1 @@
+<view><button type="default" data-event-opts="{{[['tap',[['share',['$event']]]]]}}" bindtap="__e">分享文字</button></view>

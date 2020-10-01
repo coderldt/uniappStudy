@@ -6,6 +6,8 @@
 		<button type="default" @click="switchVideo">视频器</button>
 		<button type="default" @click="switchCamera">微信camera</button>
 		<button type="default" @click="switchSystem">system</button>
+		<button type="default" @click="switchphone">拨打电话</button>
+		<button type="default" @click="switchServe">服务栏目</button>
 		<view class="body" :style="{height: height}">
 			<block v-for="(item, index) in 10" :key="index">
 				{{item}}
@@ -58,6 +60,18 @@
 			switchSystem() {
 				uni.navigateTo({
 					url: "../system/index"
+				})
+				// uni.showTabBar()
+			},
+			switchphone() {
+				uni.navigateTo({
+					url: "../system/phone"
+				})
+				// uni.hideTabBar()
+			},
+			switchServe() {
+				uni.navigateTo({
+					url: '../serve/index'
 				})
 			}
 		},
